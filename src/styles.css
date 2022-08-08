@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+html::-webkit-scrollbar {
+	width: 7px;
+}
+
+html::-webkit-scrollbar-thumb {
+	background-image: linear-gradient(62deg, #2f95fc81 0%, #a446fc 100%);
+    border-radius: 5px;
+}
+
+iframe  #formulario-webkit-scrollbar {
+	width: 7px;
+}
