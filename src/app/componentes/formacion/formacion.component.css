@@ -1,0 +1,35 @@
+#somos-proya .container {
+  text-align: center;
+  padding: 200px 12px;
+}
+#somos-proya {
+  background-color: #ebf3f5;
+}
+@media (min-width: 800px) {
+  #somos-proya .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #somos-proya .texto {
+    width: 50%;
+    max-width: 600px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #somos-proya h2 {
+    margin-top: 0px;
+  }
+
+  #somos-proya .img-container {
+    background-image: url("../../../assets/somos-proya.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+  }
+}

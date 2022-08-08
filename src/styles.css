@@ -15,3 +15,8 @@ iframe #formulario-webkit-scrollbar {
 summary {
   list-style: none;
 }
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+  }
