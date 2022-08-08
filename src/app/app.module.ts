@@ -7,6 +7,7 @@ import { HeaderNavComponent } from './componentes/header-nav/header-nav.componen
 import { AsideBanerComponent } from './componentes/aside-baner/aside-baner.component';
 import { FormacionComponent } from './componentes/formacion/formacion.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
     HeaderNavComponent,
     AsideBanerComponent,
     FormacionComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    ExperienciaComponent
   ],
   imports: [
     BrowserModule,
