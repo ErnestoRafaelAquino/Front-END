@@ -11,6 +11,7 @@ import { ExperienciaComponent } from './componentes/experiencia/experiencia.comp
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { SkillsetComponent } from './componentes/skillset/skillset.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContactoComponent } from './componentes/contacto/contacto.component';
     ExperienciaComponent,
     HabilidadesComponent,
     SkillsetComponent,
-    ContactoComponent
+    ContactoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
