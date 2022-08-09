@@ -20,6 +20,10 @@ summary {
   max-width: 1400px;
   margin: auto;
 }
+
+.color-acento {
+    color: blueviolet;
+  }
 /*revisar estos estilos globales*/
 
   body {
