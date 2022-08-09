@@ -1,0 +1,98 @@
+#conocimientos {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  text-align: center center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#conocimientos .container {
+  padding: 150px 12px;
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+#conocimientos .carta {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  }
+.carta {
+  margin: 5% 1%;
+  border-radius: 5px;
+}
+#conocimientos h2 {
+  margin-top: 0;
+  font-size: 3.2em;
+}
+#conocimientos h3 {
+  font: center;
+  justify-content: center;
+  margin-bottom: 1vh;
+}
+
+.carta:first-child {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../../../assets/front-end.jpg");
+}
+
+.carta:nth-child(2) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../../../assets/full-stack.jpg");
+}
+
+.carta:nth-child(3) {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../../../assets/python.jpg");
+}
+.boton-html {
+  text-size-adjust: auto;
+  justify-content: center;
+  width: cover;
+  background-color: #0000008a;
+  background-image: rgba(30, 30, 30, 0.61);
+  border-radius: 5px;
+  margin-top: 1vh;
+}
+@media (min-width: 800px) {
+  #conocimientos .programas {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #conocimientos p {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  #conocimientos h2 {
+    font-size: 4em;
+  }
+
+  #conocimientos h3 {
+    padding: 1vh;
+  }
+
+  #conocimientos .carta {
+    padding: 0;
+    background-size: 100% 150px;
+    background-size: cover;
+    background-position-y: 0;
+    background-color: rgba(50, 50, 50, 1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    justify-content: space-between;
+  }
+
+}
