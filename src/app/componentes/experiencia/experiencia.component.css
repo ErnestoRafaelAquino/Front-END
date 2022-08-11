@@ -39,21 +39,21 @@
   }
 }
 */
-#somos-proya .container {
+#experiencia .container {
   text-align: center;
   padding: 200px 12px;
 }
-#somos-proya {
+#experiencia {
   background-color: #2b2b2b;
 }
 @media (min-width: 800px) {
-  #somos-proya .container {
+  #experiencia .container {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
   }
 
-  #somos-proya .texto {
+  #experiencia .texto {
     width: 50%;
     max-width: 600px;
     text-align: initial;
@@ -63,11 +63,11 @@
     justify-content: center;
   }
 
-  #somos-proya h2 {
+  #experiencia h2 {
     margin-top: 0px;
   }
 
-  #somos-proya .img-container {
+  #experiencia .img-container {
     background-image: url("../../../assets/background-2.jpeg");
     background-size: cover;
     background-position: center center;
