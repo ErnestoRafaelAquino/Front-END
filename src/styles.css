@@ -11,6 +11,10 @@ html::-webkit-scrollbar-thumb {
 iframe #formulario-webkit-scrollbar {
   width: 7px;
 }
+/*elimina punto ul*/
+ul{
+  list-style-type: none;
+}
 /*elimina sticker*/
 summary {
   list-style: none;
@@ -47,4 +51,14 @@ body {
   --gray3: #4b4c4d;
   --black: #323333;
   --black2: #2a2b2b;
+}
+
+header {
+  z-index: 2;
+}
+aside{
+  z-index: 3;
+}
+div .card{
+  z-index: 1;
 }
