@@ -1,10 +1,30 @@
 #conocimientos {
-  background-color: rgb(30, 30, 30);
+  background-color: rgb(255, 255, 255);
   color: white;
   text-align: center center;
   display: flex;
   justify-content: space-between;
 }
+
+#conocimientos h2{
+  color: rgb(0, 0, 0);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+/*go brillo*/
+#conocimientos h2:hover span:nth-child(1){
+  margin-right: 5px;
+}
+#conocimientos h2:hover span:nth-child(2){
+  margin-left: 40px;
+}
+#conocimientos h2:hover span{
+  color: rgb(39, 39, 39);
+  text-shadow: 0 0 10px rgb(138, 43, 226),
+  0 0 20px rgb(138, 43, 226),
+  0 0 40px rgb(138, 43, 226);
+}
+/*brillo*/
 
 #conocimientos .container {
   padding: 150px 12px;
