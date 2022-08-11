@@ -24,6 +24,11 @@
   0 0 20px white,
   0 0 40px white;
 }
+/*iconos*/
+img{
+  width: 60%;
+  height: 60%;
+}
 /*graficos*/
 *{
   margin: 0;
