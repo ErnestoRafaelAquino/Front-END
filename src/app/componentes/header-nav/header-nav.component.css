@@ -1,13 +1,7 @@
 header {
   position: fixed;
-  background-color: #4158d0;
-  background-image: linear-gradient(
-    43deg,
-    #4159d0a1 0%,
-    #c850c0a1 46%,
-    #ffcd70a1 100%
-  );
-
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc81 0%, #e0c3fc 100%);
   border-radius: 5px;
 }
 
