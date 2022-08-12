@@ -20,7 +20,7 @@ header .container {
   width: none;
 }
 summary {
-  color: rgb(255, 255, 255);
+  color: rgb(73, 77, 72);
 }
 details{
   cursor: pointer;
@@ -36,7 +36,7 @@ header a {
   padding: 5px 12px;
   text-decoration: none;
   font-weight: bold;
-  color: rgb(179, 179, 179);
+  color: rgb(59, 59, 59);
 }
 
 header a:hover {
