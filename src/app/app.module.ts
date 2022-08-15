@@ -12,6 +12,9 @@ import { HabilidadesComponent } from './componentes/habilidades/habilidades.comp
 import { SkillsetComponent } from './componentes/skillset/skillset.component';
 import { ContactoComponent } from './componentes/contacto/contacto.component';
 import { FooterComponent } from './componentes/footer/footer.component';
+import { HttpClient,HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './componentes/home/home.component';
+import { LoginComponent } from './componentes/login/login.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +27,14 @@ import { FooterComponent } from './componentes/footer/footer.component';
     HabilidadesComponent,
     SkillsetComponent,
     ContactoComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
