@@ -52,6 +52,19 @@ body {
   --black: #323333;
   --black2: #2a2b2b;
 }
+:root {
+  --green: hsl(162, 45%, 56%);
+  --plomo: hsl(162, 2%, 56%);
+  --blue: hsl(220, 85%, 57%);
+  --violet: hsl(272, 92%, 32%);
+  --tex-white: hsl(0, 0%, 100%);
+  --text-light-gray: hsl(0, 0%, 90%);
+  --body-bg-color: hsl(200, 54%, 12%);
+  --glass-bg-color: hsla(0, 0%, 100%, 0.05);
+  --boder-color: hsla(0, 0%, 100%, 0.25);
+  --blur: blur(10px);
+  --button-hover-color: hsla(0, 0%, 8%, 0.3);
+}
 
 header {
   z-index: 2;
