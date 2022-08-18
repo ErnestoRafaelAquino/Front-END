@@ -1,4 +1,40 @@
 
+html{
+  margin: 0px;
+}
+.porcentaje .vh-1001{
+  display:contents;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  height: 100vh;
+}
+.col-xl-5{
+  padding: 40px 100px;
+}
+p.mb-0{
+  padding: 10px;
+}
+.form-control form-control-lg{
+  width: 600px;
+}
+.carta{
+  padding: 10px;
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+}
+.gradient-customs{
+  
+  /* fallback for old browsers */
+  background: #6a11cb;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+
+  }
 /*.cascading-right {
   margin-right: -50px;
 }
