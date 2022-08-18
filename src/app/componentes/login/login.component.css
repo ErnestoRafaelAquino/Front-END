@@ -2,7 +2,7 @@
 html{
   margin: 0px;
 }
-.section{
+.section2{
   padding: 0px;
     /* fallback for old browsers */
     background: #6a11cb;
@@ -28,21 +28,22 @@ html{
 }
 p.mb-0{
   padding: 10px;
-  border: rgb(255, 0, 221) solid 5px;
+  /*border: rgb(255, 0, 221) solid 5px;*/
 }
 .form-control-lg{
   margin: 10% 0% 0% 10%;
   width: 80%;
-  border: red solid 5px;
+  /*border: red solid 5px;/**/
 }
 .carta2{
   padding: 10px;
   margin-top: 30vh;
   margin-bottom: 30vh;
-  border: rgb(0, 255, 55) solid 5px;
+  border: rgb(255, 174, 0) solid 5px;
 }
 section {
-  border: rgb(15, 226, 61) solid 5px;
+  /*border: rgb(15, 226, 61) solid 5px;*/
+  border-top: rgb(31, 31, 31) solid 5px;
   justify-content: space-between;
   }
   @media (min-width: 800px) {
@@ -62,7 +63,7 @@ section {
     .container2{
       margin: 10px;
     }
-    .section {
+    .section2 {
       height: 1000px;
     }
   }
