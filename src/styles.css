@@ -11,6 +11,10 @@ html::-webkit-scrollbar-thumb {
 iframe #formulario-webkit-scrollbar {
   width: 7px;
 }
+
+html{
+  background: #4b4c4d;
+}
 /*elimina punto ul*/
 ul{
   list-style-type: none;
